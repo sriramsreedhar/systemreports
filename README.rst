@@ -5,8 +5,8 @@ Sysreports
 
 
 * Documentation: https://sysreports.readthedocs.io/en/latest/
-* GitHub: https://github.com/sriramsreedhar/sysreports
-* PyPI: https://pypi.org/project/sysreports/
+* GitHub: https://github.com/sriramsreedhar/systemreports
+* PyPI: https://pypi.org/project/systemreports
 * Free and open source software: `BSD license`_
 
 
@@ -19,12 +19,15 @@ Features
 
 Install
 ---------
-pip install sysreports
+pip install systemreports
 
 
 Dependencies 
 -------------
 OS |
 SHUTIL |
-DATETIME
+DATETIME |
+SYSCONFIG |
+PLATFORM |
+PSUTIL|
 
