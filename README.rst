@@ -4,7 +4,7 @@ SystemReports
 =============
 
 
-* Documentation: https://sysreports.readthedocs.io/en/latest/
+* Documentation: https://systemreports.readthedocs.io/en/latest/
 * GitHub: https://github.com/sriramsreedhar/systemreports
 * PyPI: https://pypi.org/project/systemreports
 * Free and open source software: `BSD license`_
