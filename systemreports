@@ -1,10 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python3.6
 import os
 import shutil
 import datetime
 import sysconfig
 import platform
-import psutil
+import getpass
+#import psutil
+#import commands
 osn=list(os.uname())
 
 def date_time():
@@ -30,8 +32,8 @@ def current_uid():
 def clear_screen():
     return os.system("clear")
 
-#def user_name():
-#    return os.getlogin()
+def user_name():
+    return getpass.getuser()
 
 def host_name():
     return os.uname()[1]
@@ -70,7 +72,7 @@ def disk_free():
 def processor_name():
     return platform.processor()
 
-def users_logged_in():
+#def users_logged_in():
     a=psutil.users()
     return  [i[0] for i in a]
 
@@ -89,6 +91,12 @@ def memory_usage_resource():
     return mem
 
 
+def physical_memory():
+    import os 
+    mem_bytes = os.sysconf('SC_PAGE_SIZE') * os.sysconf('SC_PHYS_PAGES')
+    mem_gib = mem_bytes/(1024.**3)
+    return mem_gib
+
 
 clear_screen()
 print ("This System Report is Generated on :-", date_time())
@@ -99,7 +107,7 @@ print ("Load Average                     :- ", load_avg())
 print ("System Architecture              :- ", arch_name())
 print ("Home environment is set to       :- ", home_env())
 print ("Current UID                      :- ", current_uid())
-#print ("Current User Name                :- ", user_name())
+print ("Current User Name                :- ", user_name())
 print ("Actual root Disk Size            :-", total_disk_size())
 print ("root (/) Disk Used               :-", disk_usage())
 print ("root (/) Free Space Available    :-", disk_free())
@@ -108,5 +116,6 @@ print ("Current System Platform          :- ",  current_platform())
 print ("Processor in use                 :- ",  processor_name())
 #print ("Current Logged in Users          :- ",  users_logged_in())
 #print ("Current CPU System Used          :- ",  cpu_usage_system())
-print ("Memory Usage in MB               :- ",  memory_usage_resource())
+#print ("Memory Usage in MB               :- ",  memory_usage_resource())
+print ("Total Physical Memory(GB)        :- ",  physical_memory())
 
