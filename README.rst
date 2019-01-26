@@ -1,21 +1,18 @@
-
 =============
 SystemReports
 =============
 
 
-* Documentation: https://systemreports.readthedocs.io/en/latest/
 * GitHub: https://github.com/sriramsreedhar/systemreports
-* PyPI: https://pypi.org/project/systemreports
-* Free and open source software: `BSD license`_
+* Free and open source software: `MIT License`
 
 
 Features
 --------
 
-* Cross-platform: Windows, Mac, and Linux are officially supported.
+* Centos Linux officially supported.
 
-* Works with Python 2.7, 3.4, 3.5, 3.6, and PyPy. 
+* Works with Python 3.6. 
 
 Install
 ---------
@@ -29,5 +26,5 @@ SHUTIL |
 DATETIME |
 SYSCONFIG |
 PLATFORM |
-PSUTIL|
+COMMANDS|
 
