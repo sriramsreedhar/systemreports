@@ -16,7 +16,7 @@ Features
 
 Install
 ---------
-[root@1d939f630440 sys]# pip3.6 install systemreports
+# pip3.6 install systemreports
 Collecting systemreports
   Downloading https://files.pythonhosted.org/packages/f1/bd/f3a10752a279750a7136bdc849aba65676d44bfb63e4a269ea6e09a2efff/systemreports-1.0.0.tar.gz
 Building wheels for collected packages: systemreports
