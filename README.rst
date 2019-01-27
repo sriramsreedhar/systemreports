@@ -16,7 +16,7 @@ Features
 
 Install
 ---------
-# pip3.6 install systemreports
+|# pip3.6 install systemreports . 
 Collecting systemreports
   Downloading https://files.pythonhosted.org/packages/f1/bd/f3a10752a279750a7136bdc849aba65676d44bfb63e4a269ea6e09a2efff/systemreports-1.0.0.tar.gz
 Building wheels for collected packages: systemreports
@@ -28,7 +28,7 @@ Successfully installed systemreports-1.0.0
 
 Output:
 ---------
-[root@1d939f630440 sys]# systemreports 
+|[root@1d939f630440 sys]# systemreports .  
 
 This System Report is Generated on :- Sat Jan 26 19:01:37 2019
 =========================================================
@@ -48,7 +48,7 @@ Processor in use                 :-  x86_64
 Total Physical Memory(GB)        :-  1.9522056579589844
 [root@1d939f630440 sys]# 
 
-Dependencies 
+|Dependencies .  
 -------------
 OS |
 SHUTIL |
