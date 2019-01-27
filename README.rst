@@ -30,22 +30,22 @@ Output:
 ---------
 |[root@1d939f630440 sys]# systemreports .  
 
-|This System Report is Generated on :- Sat Jan 26 19:01:37 2019
-|=========================================================
-|Name of Operating System is      :-  Linux
-|Host Name                        :-  1d939f630440
-|Load Average                     :-  (0.09, 0.02, 0.01)
-|System Architecture              :-  x86_64
-|Home environment is set to       :-  /root
-|Current UID                      :-  0
-|Current User Name                :-  root
-|Actual root Disk Size            :-  58.42GB 
-|root (/) Disk Used               :-  7.27GB
-|root (/) Free Space Available    :-  48.15GB
-|Number of Logical Cores          :-  2
-|Current System Platform          :-  linux-x86_64
-|Processor in use                 :-  x86_64
-|Total Physical Memory(GB)        :-  1.9522056579589844
+|This System Report is Generated on :- Sat Jan 26 19:01:37 2019 .   
+|========================================================= . 
+|Name of Operating System is      :-  Linux . 
+|Host Name                        :-  1d939f630440 . 
+|Load Average                     :-  (0.09, 0.02, 0.01) .  
+|System Architecture              :-  x86_64 . 
+|Home environment is set to       :-  /root . 
+|Current UID                      :-  0 . 
+|Current User Name                :-  root . 
+|Actual root Disk Size            :-  58.42GB .  
+|root (/) Disk Used               :-  7.27GB . 
+|root (/) Free Space Available    :-  48.15GB . 
+|Number of Logical Cores          :-  2 . 
+|Current System Platform          :-  linux-x86_64 . 
+|Processor in use                 :-  x86_64 . 
+|Total Physical Memory(GB)        :-  1.9522056579589844 . 
 |[root@1d939f630440 sys]# 
 
 |Dependencies .  
