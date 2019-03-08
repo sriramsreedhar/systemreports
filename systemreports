@@ -1,5 +1,4 @@
 #!/usr/bin/python3.6
-#!/usr/bin/python3
 import os
 import shutil
 import datetime
@@ -17,6 +16,12 @@ def get_ipaddress():
         return ipaddress
     except:
         print("Unable to get hostname")
+
+def check_internet_connection():
+    try:
+        return (socket.gethostbyname('google.com'))
+    except:
+        print("Unable to connect to Internet!!")
 
 def network_devices():
     try:
@@ -136,5 +141,6 @@ print ("Processor in use                 :- ",  processor_name())
 #print ("Current CPU System Used          :- ",  cpu_usage_system())
 #print ("Memory Usage in MB               :- ",  memory_usage_resource())
 print ("Total Physical Memory(GB)        :- ",  physical_memory())
-print ("IP Address                       :- ",  get_ipaddress())
+print ("IP Address(Primary)              :- ",  get_ipaddress())
 print ("Network Devices                  :- ",  network_devices())
+print ("DNS Works (www.google.com) IP is :- ",check_internet_connection())
