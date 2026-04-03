@@ -1,4 +1,6 @@
+LICENSE
 MANIFEST.in
+NOTICE
 README.rst
 setup.py
 docs/dashboard-screenshot.png

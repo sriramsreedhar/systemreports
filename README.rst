@@ -4,7 +4,7 @@ SystemReports
 
 
 * GitHub: https://github.com/sriramsreedhar/systemreports.git
-* Free and open source software: `MIT License`
+* Free and open source software: `Apache License 2.0` (see ``LICENSE``)
 
 
 Features

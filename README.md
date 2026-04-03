@@ -3,7 +3,7 @@
 Cross-platform system metrics with a **local web dashboard** (Windows, macOS, Linux) and optional CLI/JSON output.
 
 - **GitHub:** [github.com/sriramsreedhar/systemreports](https://github.com/sriramsreedhar/systemreports.git)
-- **License:** MIT
+- **License:** [Apache-2.0](LICENSE)
 
 ## Screenshot
 
