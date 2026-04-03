@@ -1,0 +1,3 @@
+recursive-include systemreports/templates *
+recursive-include systemreports/static *
+recursive-include docs *

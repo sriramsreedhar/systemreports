@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+docs/dashboard-screenshot.png
+systemreports/__init__.py
+systemreports/__main__.py
+systemreports/app.py
+systemreports/cli.py
+systemreports/collector.py
+systemreports.egg-info/PKG-INFO
+systemreports.egg-info/SOURCES.txt
+systemreports.egg-info/dependency_links.txt
+systemreports.egg-info/entry_points.txt
+systemreports.egg-info/requires.txt
+systemreports.egg-info/top_level.txt
+systemreports/static/style.css
+systemreports/templates/index.html

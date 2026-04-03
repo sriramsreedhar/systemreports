@@ -1,0 +1,2 @@
+[console_scripts]
+systemreports = systemreports.cli:main
